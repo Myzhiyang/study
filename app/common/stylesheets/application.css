@@ -1,0 +1,270 @@
+.supersonic-navbar-mock {
+  background-color: #e60000 !important;
+  text-align: center;
+  font-weight: 600;
+}
+
+/*index*/
+
+.index-title p{
+  border-bottom: 2px solid #d20303;
+  border-left: 10px solid #d20303;
+  line-height: 40px;
+  font-size: 1.1em;
+}
+.index-title-left{
+  margin-left: 10px;
+}
+.index-title .item-note{
+  margin-right: 10px;
+}
+.breakfast-list{
+  width: 100%;
+  height: 160px;
+  margin: 10px 0 0 3px;
+}
+.diet-item{
+  width: 43%;
+  float: left;
+  margin-left: 15px;
+}
+.index-name{
+  font-size: 1.1em;
+}
+.index-price{
+  margin-top: -10px;
+}
+.diet-item img{
+  width: 100%;
+  height: 120px;
+}
+.index-top-img{
+  height: 220px;
+  width: 100%;
+}
+.center{
+  text-align: center;
+}
+#menu-breakfast{
+  height: 365px;
+}
+#menu-noon{
+  height: 365px;
+}
+#menu-dinner{
+  height: 365px;
+}
+
+/*detail-breakfast/noon/dinner*/
+
+/*login&register*/
+
+#register-top{
+  margin: auto 30px;
+  margin-bottom: 150px;
+}
+#register-top-img{
+  max-width: 100px;
+  margin:40px auto;
+}
+#register-top span{
+  color: black;
+  font-size: 1.2em;
+}
+
+.register-top{
+  border: 0px;
+  border-bottom: 1px solid #AAAAAA;
+  margin-bottom:15px;
+}
+.register-top input{
+  font-size: 1em;
+}
+
+.login-button1{
+  background-color: #d20303;
+}
+.login-button2{
+  background-color: black;
+}
+.login-button{
+  color: white;
+  border: 0px;
+  font-size: 1.4em;
+  font-weight: bolder;
+}
+.login-bottom{
+  position: fixed;
+  bottom: 0px;
+  padding: 0px;
+}
+
+/*rank*/
+
+#month-rank-list{
+  max-width: 80%;
+  margin:40px auto;
+}
+.line1{
+  background-color: #d20303;
+}
+.line2{
+  background-color: #faa4a4;
+}
+.rank-button{
+  margin: 30px 25% 40px 25%;
+  color: white;
+  font-size: 1.4em;
+  font-weight: bolder;
+  width: 50%;
+  border: 0px;
+}
+.week-rank{
+  background-color: #faa4a4;
+}
+.month-rank{
+  background-color: #d20303;
+}
+
+/*notice*/
+
+.message-date{
+  line-height: 40px;
+  color: #AAAAAA;
+  margin-top: 10px;
+}
+.send-message{
+  padding-top: 70px;
+  padding-bottom: 60px;
+  display: block;
+}
+#send-message-title{
+  left: 10px;
+  top: 10px;
+  position: absolute;
+  font-size: 1em;
+}
+#send-message-detail{
+  position: absolute;
+  top: 50px;
+  width: 70%;
+}
+#good-message-img{
+  position: absolute;
+  top: 40px;
+}
+
+/*details*/
+
+#detail-top h2{
+  margin: 20px 0 5px 0;
+}
+#detail-top p{
+  margin: 30px 0 0 -90px;
+  white-space: normal;
+  color: black;
+}
+#diet-comments label{
+  background-color: #faa4a4;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.1em;
+  padding: 10px 15px 10px 15px;
+  margin: 0px 0 0px 10px;
+}
+.other-comments{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+}
+.dengdeng{
+  color: #d20303;
+  font-size: 1.4em;
+  margin-left: 10px;
+}
+.detail-recommend{
+  height: 430px;
+}
+#fade{
+  position: fixed;
+}
+.black_overlay{
+  /*display: none;*/
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,.5);
+  z-index:1001;
+}
+.white{
+  background-color: white;
+}
+.my-comment{
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  margin: 0px;
+}
+.comment-pad{
+  padding-left: 150px;
+}
+.comment-img{
+  max-width: 120px;
+  max-height: 120px;
+  position: absolute;
+  top: -30px;
+  left: 15px;
+  z-index: 2000;
+}
+.comment-title{
+  font-size: 1.1em;
+}
+.padding0{
+  padding: 0px;
+}
+.bolder{
+  font-weight: bolder;
+}
+.good-specification{
+   padding-top: 8px;
+   padding-bottom: 8px;
+   border: 0px;
+   border-radius: 4px;
+   margin-top: 10px;
+   width: 60px;
+   text-align: center;
+   margin-right: 10px;
+ }
+.good-specification input{
+  display: none;
+}
+.specification-button{
+  background-color: white;
+  color: #d20303;
+  border: 1px solid #d20303;
+}
+
+/*success*/
+
+#success-img{
+  max-width: 90%;
+  margin:150px 0px 10px 0px;
+}
+.success p{
+  font-size: 1.4em;
+  margin-left: 20px;
+}
+
+/*shouting*/
+
+div.item.item-text-wrap{
+  background-color: #faa4a4;
+}
+div.bar.bar-footer.item-input-inset{
+  position: fixed;
+}
